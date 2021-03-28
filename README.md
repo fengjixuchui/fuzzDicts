@@ -1,19 +1,26 @@
 # fuzzDicts
 Web Pentesting Fuzz 字典,一个就够了。
 
-* 赞助无业憨批:
-
-![](https://raw.githubusercontent.com/TheKingOfDuck/myScripts/master/ali.jpg)
-![](https://raw.githubusercontent.com/TheKingOfDuck/myScripts/master/wx.jpg)
-
 ## log 
 
 不定期更新，使用前建议git pull一下，同步更新。
 
 
+  **分享字典建议直接提交PR** 
+
+
+20201202:
+
+* 在目录字典下更新了一个[Se7en](https://github.com/r00tSe7en)师傅给的admin目录变种。
+
+20200510:
+
+* 用户名字典下新增了一个百家姓top3000的拼音，去重后188条，Attack!!!.
+
+
 20200420:
 
-* 合并一个由[lanyi1998](https://github.com/lanyi1998)提交的pr，测试常用手机号码top300+，放在用户名字典里面，瓶颈测试时可以试试。
+* 合并一个由[lanyi1998](https://github.com/lanyi1998)提交的pr，测试常用手机号码top300+，放在用户名字典里面，瓶颈测试时可以试试；添加一份团队Child师傅提供的某集团的弱口令字典。
 
 20200410:
 
@@ -26,15 +33,6 @@ Web Pentesting Fuzz 字典,一个就够了。
 20200410:
 
 * 新增centOS和AIX主机的/etc/目录的文件列表，放在ssrfDict目录，实战中遇到的，aix和其他系统区别还是蛮大的，作用自己琢磨。
-
-
-20200318:
-
-**带中文的那个hk字典和这个项目没有半毛钱关系，已有的字典源自给小伙伴测试博客时得出得结论(密码和id关联度很高),所以才基于404notfound师傅的成果分离了一些字段,方便爆破shell之类的,不希望在字典内得可已自己提交pr删一下。至于怕被查什么的，本身404notfound师傅那边就有完整的了,这边不是源头删了也没啥用,再者，已经有公司专门做这样的事情了(给攻击者画像)，保护没做好只要犯事都跑不掉的...**
-
-20200311:
-
-* 黑阔字典原始数据非本人采集，我只是提取了404notfound师傅的成果中的字段，采集本身就不可能全面覆盖到整个行业所有师傅，如果有想把其他师傅加入名单的师傅可以私聊我或者提交commit啊。[手动狗头]
 
 20200221:
 
